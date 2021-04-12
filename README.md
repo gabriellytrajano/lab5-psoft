@@ -1,4 +1,4 @@
-# lab6-psoft (Strategy)
+# lab5-psoft (Strategy)
 
 ## Especificação
 
