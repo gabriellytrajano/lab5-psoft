@@ -16,7 +16,7 @@ public class Navegacao {
 		
 		String entrada;
 		
-		Rota rota;
+		Rota rota = null;
 		
 		boolean fimDoTrajeto = false;
 		
