@@ -33,19 +33,15 @@ public class Navegacao {
 			
 			if (entrada.equalsIgnoreCase("1")) {
 				rota = new Pedestre();
-				rota.calcularRota();
 				
 			} else if (entrada.equalsIgnoreCase("2")) {
 				rota = new Carro();
-				rota.calcularRota();
 				
 			} else if (entrada.equalsIgnoreCase("3")) {
 				rota = new Onibus();
-				rota.calcularRota();
 				
 			} else if (entrada.equalsIgnoreCase("4")) {
 				rota = new Metro();
-				rota.calcularRota();
 				
 			} else if (entrada.equalsIgnoreCase("5")){
 				System.out.println("Encerrando navegação. Até logo!");
@@ -53,6 +49,8 @@ public class Navegacao {
 			} else {
 				System.out.println("Transporte não cadastrado no sistema.");
 			}
+			
+			rota.calcularRota();
 		}
 		
 		scan.close();
